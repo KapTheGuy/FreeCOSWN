@@ -1,0 +1,13 @@
+common.c and common.h include the typical stdio and stdint features. It should be included in every single program, driver, and source file.
+
+descriptor_tables.c and descriptor_tables.h include the GDT and the IDT. Feel free to use them in your project with no credit. They are part
+of free information.
+
+monitor.c and monitor.h include typical printing functions.
+
+timer.c and timer.h include a timer driver using the x86 Programmable Interrupt Controller also known as the PIC. Support for APIC, LAPIC, and such
+are not included in FreeCOSWN yet. Although they might be implemented very soon.
+
+multiboot.h includes typical GRUB 2 Multiboot Header structures. To easily get a framebuffer and grub modules working.
+
+Feel free to ask any questions using the github issue function.
